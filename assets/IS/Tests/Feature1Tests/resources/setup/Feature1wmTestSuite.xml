@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="Feature1Tests">
+    <webMethodsTestCase name="MultiplyService">
+        <service folder="Demo1.Services" name="multiplyService">
+            <input>
+                <file filename="resources/data/multiplyserviceinput.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/data/multiplyserviceoutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
