@@ -2,9 +2,19 @@
 
 <FLOW VERSION="3.0" CLEANUP="true">
 
+
   <!-- nodes -->
 
 <MAP TIMEOUT="" MODE="STANDALONE">
   <COMMENT></COMMENT>
 </MAP>
-</FLOW>
+
+
+<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE">
+  <COMMENT>hello seq</COMMENT>
+</SEQUENCE>
+
+<BRANCH TIMEOUT="">
+  <COMMENT>hey branch</COMMENT>
+</BRANCH>
+
