@@ -12,7 +12,7 @@
     </webMethodsTestCase>
     <webMethodsTestCase name="SubtractInts">
         <mock folder="DBTest1.services" lifetime="suite" name="subservice">
-            <service folder="Feature2Tests.services" name="subtractmockservice">
+            <service folder="DBTest1.mocks" name="subtractmockservice">
                 <pipeline filename="resources/data/subtraction_input.xml"/>
             </service>
         </mock>
