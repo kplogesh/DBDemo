@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="MultichoicePkgTest">
+    <webMethodsTestCase name="AddTest">
+        <service folder="MultichoicePkg.services" name="test1">
+            <input>
+                <file filename="resources/data/input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/data/output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
